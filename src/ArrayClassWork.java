@@ -54,7 +54,34 @@ public class ArrayClassWork {
         for(Integer i : myValues){
             System.out.println(i);
         }*/
+/*import java.util.ArrayList;
+import java.util.Scanner;
 
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner myInput = new Scanner(System.in);
+        int c = 0;
+        double[] noteStored = {1000.0, 500.0, 100.0, 50.0, 20.0, 10.0, 5.0, 1.0};
+
+        double amountToPay = 5000.0;
+        System.out.println("Enter Your Paid Amount:");
+        double amountPaid = myInput.nextDouble();
+
+        if (amountPaid > amountToPay) {
+            double change = amountPaid - amountToPay;
+            System.out.println("You have change of: Rs. " + change);
+
+            for (int i = 0; i < noteStored.length; i++) {
+                c = (int) (change / noteStored[i]);
+                if (c > 0) {
+                    System.out.println("Note of Rs. " + noteStored[i] + ": " + c);
+                    change = change - c * noteStored[i];
+                }
+            }
+        }
+    }
+}*/
     }
 }
 
